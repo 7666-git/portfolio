@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+  <div class="container">    
+    <div class="innercontainer">
+        <h1 style="text-align: center;">Calculator</h1>
+    <div class="display">
+      <input type="text" placeholder="0" id="disp">
+    </div>
+    <div class="keys">
+      <button onclick="onClickEvent('add')" id="add">+</button>
+      <button onclick="onClickEvent('sub')" id="sub">-</button>
+      <button onclick="onClickEvent('mul')" id="mul">*</button>
+      <button onclick="onClickEvent('div')" id="div">/</button>
+      <button onclick="onClickEvent('seven')" id="seven">7</button>
+      <button onclick="onClickEvent('eight')" id="eight">8</button>
+      <button onclick="onClickEvent('nine')" id="nine">9</button>
+      <button onclick="onClickEvent('four')" id="four">4</button>
+      <button onclick="onClickEvent('five')" id="five">5</button>
+      <button onclick="onClickEvent('six')" id="six">6</button>
+      <button onclick="onClickEvent('one')" id="one">1</button>
+      <button onclick="onClickEvent('two')" id="two">2</button>
+      <button onclick="onClickEvent('three')" id="three">3</button>
+      <button onclick="onClickEvent('zero')" id="zero">0</button>
+      <button onclick="onClickEvent('dot')" id="dot">.</button>
+      <button onclick="clearing()" id="C">C</button><br>
+      <button onclick="calculate()" id="equal">=</button>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+
+</body>
+
+</html>
