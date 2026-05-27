@@ -5,11 +5,13 @@ box-sizing: border-box;
 }
 
 .container{
-    background-color: rgb(130, 157, 179);
+    background-color: rgb(107, 207, 207);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border-radius: 2px solid grey; */
+    
 }
 .innercontainer{
     border: 2px solid black;
@@ -17,6 +19,7 @@ box-sizing: border-box;
     width: 300px;
     height: 400px;
     border-radius: 20px;
+    box-shadow:0 6px 12px rgba(8, 8, 8, 0.2);
 }
 
 .display{
@@ -39,72 +42,91 @@ box-sizing: border-box;
     width :100%;
     border: 0px solid;
     border-radius: 10px;
+    box-shadow:0 4px 12px rgba(8, 8, 8, 0.2);
+    padding: 2px;
 }
 #add{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #sub{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #div{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #mul{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #one{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #two{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #three{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #four{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #five{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #six{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #seven{
     width:60px;
     height:50px;
+    margin: 1px;    
 }
 #eight{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #nine{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #zero{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #dot{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #C{
     width:60px;
     height:50px;
+    margin: 1px;
 }
 #equal{
     width:60px;
     height:50px;
+    margin: 1px;
 }

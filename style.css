@@ -1,56 +1,99 @@
 *{
-    margin: 0px;
-    padding:0px;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
+body{
+    background-color:rgb(107, 207, 207);
+    font-family:Arial, sans-serif;
+}
+
+
 .intro_container{
-    width: 100%;
-    height:70vh;
+    width:100%;
+    min-height:70vh;
     display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color:darkcyan;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    padding:40px 20px;
 }
 
 .intro_container img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
-.intro_container p{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size:large;
-    font-weight:bold;
-}
-.links_container{
-    padding: 20px;
-    width: 100%;
-    height:30vh;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-direction: row;
-    background-color: darkcyan;
-    justify-content: space-around;
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+    margin-bottom:20px;
 }
 
-.main_container{
-  padding: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content:space-around;
-  background-color: darkcyan;
+.intro_container h1{
+    font-size:2rem;
+    margin-bottom:20px;
+    color:#134e4a;
 }
+
+.intro_container p{
+    max-width:700px;
+    font-size:18px;
+    line-height:1.7;
+    color:#333;
+}
+
+/* Links section */
+
+.links_container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    /* justify-content: space-around; */
+    gap:20px;
+    flex-wrap:wrap;
+    /* padding:30px; */
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    width:250px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+     transform:translateY(-5px); /*push element up */
+}
+
 .link{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:bolder;
-    text-decoration: none;
+    text-decoration:none;
+    color:#006666;
+    font-weight:bold;
+    font-size:16px;
 }
+
 .link:hover{
-    color: blue;
+    color:#009999;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .intro_container h1{
+        font-size:1.6rem;
+    }
+
+    .intro_container p{
+        font-size:16px;
+    }
+
+    .card{
+        width:90%;
+    }
 }
